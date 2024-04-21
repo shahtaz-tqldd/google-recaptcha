@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Recaptcha</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title">Google Recaptcha</h2>
+      <form action="?" method="POST">
+        <div class="form-container">
+          <input placeholder="Name" class="" type="text" />
+          <input placeholder="Email" class="" type="email" />
+        </div>
+        <div
+          class="g-recaptcha"
+          data-sitekey="6LdTM8IpAAAAAN8BhUrl9xoIU9UiF5WOiTsMB8pA"
+        ></div>
+        <br />
+        <button type="submit" class="btn submit-btn">Submit</button>
+      </form>
+    </div>
+    <script src="/scripts.js"></script>
+  </body>
+</html>
